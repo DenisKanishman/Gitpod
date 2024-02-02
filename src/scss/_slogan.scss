@@ -1,0 +1,16 @@
+.slogan {
+    width: 100%;
+    height: 672px;
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .slogan_text_line {
+        color: #999795;
+        text-align: center;
+        font-size: 54px;
+        font-weight: 400;
+        text-decoration: line-through; 
+    }
+}

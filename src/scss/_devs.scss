@@ -1,0 +1,25 @@
+.devs {
+    margin-top: 170px;
+    width: 1300px;
+    height: 669px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .devs_header {
+        color: #12100C;
+        text-align: center;
+        font-size: 54px;
+        font-weight: 700;
+    }
+    .companies {
+        margin-top: 32px;
+        width: 1140px;
+        height: 246px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}

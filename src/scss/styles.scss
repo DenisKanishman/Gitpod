@@ -1,0 +1,15 @@
+@import 'header';
+@import 'promo';
+@import 'slogan';
+@import 'environment';
+@import 'desing';
+@import 'devs';
+@import 'carousel';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}

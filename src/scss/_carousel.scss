@@ -1,0 +1,31 @@
+.gallery {
+    margin-top: 50px;
+    display: flex;
+    overflow-x: auto;
+    width: 70%;
+    gap: 20px;
+}
+
+.element {
+    min-height: 100px;
+    min-width: 400px;
+    border: #12100C 1px solid;
+    padding: 24px 24px;
+    .person {
+        margin-top: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        .person_header {
+            color: #12100C;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .person_dscr {
+            color: #12100C;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
