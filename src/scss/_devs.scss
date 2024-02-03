@@ -17,9 +17,12 @@
         width: 1140px;
         height: 246px;
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(7, auto);
         justify-content: center;
         align-items: center;
-        gap: 40px;
+        column-gap: 30px;
+        .duble_space {
+            grid-column: 1 / 2;
+        }
     }
 }
